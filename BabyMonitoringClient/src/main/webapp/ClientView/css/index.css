@@ -1,0 +1,35 @@
+body{
+    background-color: #b7deea !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#feeding-data-table{
+    font-size: larger!important;
+}
+
+.cont{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.6);
+    -webkit-box-shadow:  0 0 20px 0 rgba(0,0,0,0.6);
+    -moz-box-shadow:  0 0 20px 0 rgba(0,0,0,0.6);
+
+    background-color: white !important;
+    border-radius: 15px!important;
+}
+
+#feedingStart,
+#feedingEnd{
+    flex: 0 1 13rem;
+}
+
+#milkConsumed{
+    flex: 0 1 6rem;
+}
